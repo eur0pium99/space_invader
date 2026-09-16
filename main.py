@@ -7,7 +7,6 @@ import sys
 def launch():
     if sys.platform == "win32":
         os.system("py space_invader.py")
-
     else:
         os.system("python3 space_invader.py")
 

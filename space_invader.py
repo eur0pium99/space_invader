@@ -7,7 +7,7 @@ import random
 import time
 import threading
 
-score = 980
+score = 0
 
 class Sprite(pygame.sprite.Sprite):
     def __init__(self, image, x, y, vel_x, vel_y):
